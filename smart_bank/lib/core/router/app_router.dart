@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
+//import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import '../../features/admin/admin_dashboard.dart';
 import '../../features/auth/screens/splash_screen.dart';
 import '../../features/auth/screens/login_screen.dart';
 import '../../features/auth/screens/register_screen.dart';
@@ -14,7 +15,7 @@ import '../../features/customer/screens/loan_status_screen.dart';
 import '../../features/customer/screens/profile_screen.dart';
 import '../../features/customer/screens/notifications_screen.dart';
 import '../../features/employee/screens/employee_dashboard.dart';
-import '../../features/admin/screens/admin_dashboard.dart';
+//import '../../features/admin/screens/admin_dashboard.dart';
 
 // Route names
 class AppRoutes {

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:smart_bank/core/constants/app_colors.dart';
-import 'package:smart_bank/core/router/app_router.dart';
 
-//import '../../core/router/app_router.dart' show AppRoutes;
+import '../../core/router/app_router.dart' show AppRoutes;
 
 class AdminDashboard extends StatefulWidget {
   const AdminDashboard({super.key});
@@ -418,7 +417,6 @@ class _AdminDashboardState extends State<AdminDashboard>
             borderRadius: BorderRadius.circular(4),
             child: LinearProgressIndicator(
               value: progress,
-              // ignore: deprecated_member_use
               backgroundColor: color.withOpacity(0.1),
               valueColor: AlwaysStoppedAnimation<Color>(color),
               minHeight: 6,

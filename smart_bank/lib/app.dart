@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:smart_bank/core/router/app_router.dart';
-// If a custom AppTheme isn't available, fall back to Flutter's built-in theme.
+import 'package:smart_bank/core/theme/app_theme.dart';
 
 class SmartBankApp extends ConsumerWidget {
   const SmartBankApp({super.key});
@@ -13,7 +13,7 @@ class SmartBankApp extends ConsumerWidget {
     return MaterialApp.router(
       title: 'SmartBank',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.light(),
+      theme: AppTheme.lightTheme,
       routerConfig: router,
     );
   }
